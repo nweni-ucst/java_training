@@ -11,7 +11,6 @@ package com.scm.javatraining;
  */
 public class Person {
 	// testing public modifier
-	public String fname = "Shwe Yi";
 	public String lname = "Chue Myat";
 	// testing default modifier
 	int age = 5;
@@ -21,6 +20,7 @@ public class Person {
 	protected String acdemicyear = "grade 1";
 	// testing private modifier
 	private int personId = 7;
+
 	/**
 	 * <h2>learn</h2>
 	 * <p>
@@ -29,9 +29,10 @@ public class Person {
 	 *
 	 * @return void
 	 */
-	void learn() {
+	public void learn() {
 		System.out.println("I like learning new things.");
 	}
+
 	/**
 	 * <h2>work</h2>
 	 * <p>
@@ -43,10 +44,173 @@ public class Person {
 	private void work() {
 		System.out.println("I can work the whole day.");
 	}
+
+	public String fname = "Shwe Yi";
+
+	/**
+	 * <h2>fname</h2>
+	 * <p>
+	 * getFname
+	 * </p>
+	 * 
+	 * @return String
+	 */
+	public String getFname() {
+		return fname;
+	}
+
+	/**
+	 * <h2>fname</h2>
+	 * <p>
+	 * setFname
+	 * </p>
+	 * 
+	 * @param fname
+	 */
+	public void setFname(String fname) {
+		this.fname = fname;
+	}
+
+	/**
+	 * <h2>lname</h2>
+	 * <p>
+	 * getLname
+	 * </p>
+	 * 
+	 * @return String
+	 */
+	public String getLname() {
+		return lname;
+	}
+
+	/**
+	 * <h2>lname</h2>
+	 * <p>
+	 * setLname
+	 * </p>
+	 * 
+	 * @param lname
+	 */
+	public void setLname(String lname) {
+		this.lname = lname;
+	}
+
+	/**
+	 * <h2>personId</h2>
+	 * <p>
+	 * getPersonId
+	 * </p>
+	 * 
+	 * @return int
+	 */
+	public int getPersonId() {
+		return personId;
+	}
+
+	/**
+	 * <h2>personId</h2>
+	 * <p>
+	 * setPersonId
+	 * </p>
+	 * 
+	 * @param personId
+	 */
+	public void setPersonId(int personId) {
+		this.personId = personId;
+	}
+
+	/**
+	 * <h2>getAge</h2>
+	 * <p>
+	 * getter method of Age
+	 * </p>
+	 *
+	 * @return
+	 * @return int
+	 */
+	public int getAge() {
+		return age;
+	}
+
+	/**
+	 * <h2>setAge</h2>
+	 * <p>
+	 * setter method of Age
+	 * </p>
+	 *
+	 * @param age
+	 * @return void
+	 */
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	/**
+	 * <h2>getEmail</h2>
+	 * <p>
+	 * getter method of email
+	 * </p>
+	 *
+	 * @return
+	 * @return String
+	 */
+	public String getEmail() {
+		return email;
+	}
+
+	/**
+	 * <h2>setEmail</h2>
+	 * <p>
+	 * setter method of email
+	 * </p>
+	 *
+	 * @param email
+	 * @return void
+	 */
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	/**
+	 * <h2>getBlood</h2>
+	 * <p>
+	 * getter method of blood
+	 * </p>
+	 *
+	 * @return
+	 * @return String
+	 */
+	public String getBlood() {
+		return blood;
+	}
+
+	/**
+	 * <h2>setBlood</h2>
+	 * <p>
+	 * setter method of blood
+	 * </p>
+	 *
+	 * @param blood
+	 * @return void
+	 */
+	public void setBlood(String blood) {
+		this.blood = blood;
+	}
+
+	/**
+	 * <h2>main</h2>
+	 * <p>
+	 * main method of Person Class
+	 * </p>
+	 *
+	 * @param args
+	 * @return void
+	 */
 	public static void main(String[] args) {
 		Person person1 = new Person();
 		System.out.println("Person id is " + person1.personId);
 		person1.learn();
 		person1.work();
 	}
+
 }

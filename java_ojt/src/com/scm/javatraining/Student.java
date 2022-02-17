@@ -26,9 +26,9 @@ public class Student extends Person {
 		Student stu1 = new Student();
 		System.out.println("ID : " + stu1.studentid);
 		System.out.println("Name : " + stu1.fname + " " + stu1.lname);
-		System.out.println("Age : " + stu1.age);
-		System.out.println("Email : " + stu1.email);
-		System.out.println("Blood type : " + stu1.blood);
+		System.out.println("Age : " + stu1.getAge());
+		System.out.println("Email : " + stu1.getEmail());
+		System.out.println("Blood type : " + stu1.getBlood());
 		System.out.println("Acdemic Year : " + stu1.acdemicyear);
 		// test for private varible cannot access
 		// System.out.println(stu1.personId);
