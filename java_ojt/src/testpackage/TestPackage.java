@@ -24,10 +24,13 @@ public class TestPackage {
 	public static void main(String[] args) {
 		Person person = new Person();
 		System.out.println("Name : " + person.fname + " " + person.lname);
+		// calling public method of the object
 		person.learn();
-		//This is method overloading
+		// setting method to the instance object
+		person.setAge(7);
+		person.setEmail("chuechue3@pre.com");
+		// get value from the instance object
 		System.out.println("Age : " + person.getAge());
 		System.out.println("Email : " + person.getEmail());
 	}
-
 }

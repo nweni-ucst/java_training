@@ -50,7 +50,7 @@ public class Person {
 	/**
 	 * <h2>fname</h2>
 	 * <p>
-	 * getFname
+	 * getter method for fname
 	 * </p>
 	 * 
 	 * @return String
@@ -62,7 +62,7 @@ public class Person {
 	/**
 	 * <h2>fname</h2>
 	 * <p>
-	 * setFname
+	 * setter method for fname
 	 * </p>
 	 * 
 	 * @param fname
@@ -74,7 +74,7 @@ public class Person {
 	/**
 	 * <h2>lname</h2>
 	 * <p>
-	 * getLname
+	 * getter method for lname
 	 * </p>
 	 * 
 	 * @return String
@@ -86,7 +86,7 @@ public class Person {
 	/**
 	 * <h2>lname</h2>
 	 * <p>
-	 * setLname
+	 * setter method for lname
 	 * </p>
 	 * 
 	 * @param lname
@@ -122,7 +122,7 @@ public class Person {
 	/**
 	 * <h2>getAge</h2>
 	 * <p>
-	 * getter method of Age
+	 * getter method for Age
 	 * </p>
 	 *
 	 * @return
@@ -135,7 +135,7 @@ public class Person {
 	/**
 	 * <h2>setAge</h2>
 	 * <p>
-	 * setter method of Age
+	 * setter method for Age
 	 * </p>
 	 *
 	 * @param age
@@ -148,7 +148,7 @@ public class Person {
 	/**
 	 * <h2>getEmail</h2>
 	 * <p>
-	 * getter method of email
+	 * getter method for email
 	 * </p>
 	 *
 	 * @return
@@ -161,7 +161,7 @@ public class Person {
 	/**
 	 * <h2>setEmail</h2>
 	 * <p>
-	 * setter method of email
+	 * setter method for email
 	 * </p>
 	 *
 	 * @param email
@@ -174,7 +174,7 @@ public class Person {
 	/**
 	 * <h2>getBlood</h2>
 	 * <p>
-	 * getter method of blood
+	 * getter method for blood
 	 * </p>
 	 *
 	 * @return
@@ -187,7 +187,7 @@ public class Person {
 	/**
 	 * <h2>setBlood</h2>
 	 * <p>
-	 * setter method of blood
+	 * setter method for blood
 	 * </p>
 	 *
 	 * @param blood
