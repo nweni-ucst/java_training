@@ -2,9 +2,7 @@ package com.scm.javatraining;
 
 public class TestVariables {
 
-	/**
-	 * @param args
-	 */
+	
 	public static void main(String[] args) {
 
 		// Declaring and creating variables
