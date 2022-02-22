@@ -1,34 +1,35 @@
 package tutorial;
 
-public class tutorial5 {
-
+/**
+ * <h2> Tutorial5 Class</h2>
+ * <p>
+ * Process for Displaying Tutorial5
+ * </p>
+ * 
+ * @author NweNi
+ *
+ */
+public class Tutorial5 {
 	/**
 	 * <h2>main</h2>
 	 * <p>
-	 * main metod for tutorial5 to generate a *'s triangle
+	 *to generate a *'s triangle
 	 * </p>
 	 *
-	 * @param args
+	 * @param args String[]
 	 * @return void
 	 */
 	public static void main(String[] args) {
-		int count1 = 0;
-		int count2 = 6;
 		for (int i = 0; i < 6; i++) {
-			count1 = 0;
-			count2 = 6 - i;
-			// while loop to display numbers of space
-			while (count1 <= i) {
+			//looping to display numbers of space
+			for(int j=0;j<=i;j++) {
 				System.out.print(" ");
-				count1++;
 			}
-			// while loop to display numbers of *
-			while (count2 > 0) {
+			//looping to display numbers of *
+			for(int k=6-i;k>0;k--) {
 				System.out.print("*");
-				count2--;
 			}
 			System.out.println();
 		}
 	}
-
 }
