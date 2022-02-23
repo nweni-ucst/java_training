@@ -2,7 +2,6 @@ package tutorial;
 
 import java.util.ArrayList;
 import java.util.Collections;
-
 /**
  * <h2>Tutorial11A Class</h2>
  * <p>
