@@ -31,7 +31,7 @@ public class Tutorial7 {
 			}
 			// looping for space, middle pattern
 			space = 2 * i - 1;
-			for (int s = 1; s < space; s++) {
+			for (int s = 1; s < space-1; s++) {
 				System.out.print(" ");
 			}
 			// looping for third part characters' pattern
@@ -52,7 +52,7 @@ public class Tutorial7 {
 			}
 			// looping for space, middle pattern
 			space = 2 * m - 1;
-			for (int s = space; s > 1; s--) {
+			for (int s = space; s > 2; s--) {
 				System.out.print(" ");
 			}
 			// looping for third part characters' pattern
