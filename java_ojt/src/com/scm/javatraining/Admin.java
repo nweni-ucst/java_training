@@ -2,8 +2,9 @@ package com.scm.javatraining;
 
 public class Admin implements User {
 
-	String text="I am Moderator.";
-	protected void modify() {
+	protected String text="I am Moderator in Admin Class.";
+	@Override
+	public void modify() {
 		System.out.println("String : I have access to modify.");
 	}
 	protected String moderator() {
@@ -17,7 +18,7 @@ public class Admin implements User {
 	 * 
 	 */
 	public void edit() {
-		System.out.println("I can edit all file.");
+		System.out.println("I can edit all files.");
 	}
 	/**
 	 * <h2>delete</h2>
@@ -27,7 +28,7 @@ public class Admin implements User {
 	 * 
 	 */
 	public void delete() {
-		System.out.println("I can detele all of file.");
+		System.out.println("I can detele all of files.");
 	}
 	/**
 	 * <h2>writeCode</h2>
@@ -56,13 +57,13 @@ public class Admin implements User {
 		programmer.access();
 		programmer.edit();
 		programmer.delete();
-		programmer.writeCode("I am Programmer.");
+		writeCode("I am Programmer.");
 		System.out.println();
 		//creating new user name developer
 		Admin developer = new Admin();
 		developer.access();
 		developer.edit();
 		developer.delete();
-		developer.writeCode("I am developer.");
+		writeCode("I am developer.");
 	}
 }

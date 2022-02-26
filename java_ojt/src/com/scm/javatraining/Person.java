@@ -11,20 +11,64 @@ package com.scm.javatraining;
  */
 public class Person {
 	// testing public modifier
+	/**
+	 * <h2> lname</h2>
+	 * <p>
+	 * lname
+	 * </p>
+	 */
 	public String lname = "Chue Myat";
 	// testing default modifier
+	/**
+	 * <h2> age</h2>
+	 * <p>
+	 * age
+	 * </p>
+	 */
 	int age = 5;
+	/**
+	 * <h2> email</h2>
+	 * <p>
+	 * email
+	 * </p>
+	 */
 	String email = "chuely@edu.mm";
 	// testing protected modifier
+	/**
+	 * <h2> blood</h2>
+	 * <p>
+	 * blood
+	 * </p>
+	 */
 	protected String blood = "AB";
+	/**
+	 * <h2> acdemicyear</h2>
+	 * <p>
+	 * acdemicyear
+	 * </p>
+	 */
 	protected String acdemicyear = "grade 1";
 	// testing private modifier
+	/**
+	 * <h2> personId</h2>
+	 * <p>
+	 * personId
+	 * </p>
+	 */
 	private int personId = 7;
 
 	/**
 	 * <h2>learn</h2>
 	 * <p>
 	 * learn() method
+	 * </p>
+	 *
+	 * @return void
+	 */
+	/**
+	 * <h2> learn</h2>
+	 * <p>
+	 * 
 	 * </p>
 	 *
 	 * @return void
@@ -45,6 +89,12 @@ public class Person {
 		System.out.println("I can work the whole day.");
 	}
 
+	/**
+	 * <h2> fname</h2>
+	 * <p>
+	 * fname
+	 * </p>
+	 */
 	public String fname = "Shwe Yi";
 
 	/**

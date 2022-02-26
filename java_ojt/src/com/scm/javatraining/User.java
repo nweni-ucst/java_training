@@ -5,6 +5,15 @@ public interface User{
 	String role="Admin";
 	
 	/**
+	 * <h2> modify</h2>
+	 * <p>
+	 * 
+	 * </p>
+	 *
+	 * @return void
+	 */
+	public void modify();
+	/**
 	 * <h2> access</h2>
 	 * <p>
 	 * access method
@@ -12,6 +21,7 @@ public interface User{
 	 *
 	 * @return void
 	 */
+	
 	default void access() {
 		System.out.println("I can access all of files.");
 	}
