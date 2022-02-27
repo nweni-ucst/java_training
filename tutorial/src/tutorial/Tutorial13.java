@@ -17,21 +17,21 @@ public class Tutorial13 {
 	 * num1 int static
 	 * </p>
 	 */
-	static int num1 = 0;
+	static int num1;
 	/**
 	 * <h2>num2</h2>
 	 * <p>
 	 * num2 int static
 	 * </p>
 	 */
-	static int num2 = 1;
+	static int num2;
 	/**
 	 * <h2>num3</h2>
 	 * <p>
 	 * num3 int static
 	 * </p>
 	 */
-	static int num3 = 1;
+	static int num3;
 	/**
 	 * <h2>printFibonacci</h2>
 	 * <p>
