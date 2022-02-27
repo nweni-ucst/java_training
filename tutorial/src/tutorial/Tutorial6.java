@@ -21,21 +21,22 @@ public class Tutorial6 {
 	 */
 	public static void main(String[] args) {
 		// looping for to generate above number's pattern
-		for (int i = 0; i < 7; i++) {
+		int i,j,num;
+		for (i = 0; i < 7; i++) {
 			for (int s1 = 0; s1 < i; s1++) {
 				System.out.print(" ");
 			}
-			for (int num = 1; num < 8 - i; num++) {
+			for (num = 1; num < 8 - i; num++) {
 				System.out.print((num + i) + " ");
 			}
 			System.out.println();
 		}
 		// looping for to generate below number's pattern
-		for (int j = 6; j > 0; j--) {
+		for (j = 6; j > 0; j--) {
 			for (int s2 = 1; s2 < j; s2++) {
 				System.out.print(" ");
 			}
-			for (int num = 0; num < 8 - j; num++) {
+			for (num = 0; num < 8 - j; num++) {
 				System.out.print((num + j) + " ");
 			}
 			System.out.println();

@@ -22,20 +22,28 @@ public class Tutorial9C {
 	 */
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		int num;
+		boolean leap = false;
 		do {
 			try {
 				System.out.print("Enter a number:");
-				int num = Integer.parseInt(sc.next());
+				num = Integer.parseInt(sc.next());
 				if (num % 4 == 0) {
 					if (num % 100 == 0) {
 						if (num % 400 == 0) {
-							System.out.println("It is leap year.\n");
+							leap = true;
 						} else {
-							System.out.println("It is not a leap year\n");
+							leap = false;
 						}
 					} else {
-						System.out.println("It is not a leap year\n");
+						leap = true;
 					}
+				} else {
+					leap = false;
+				}
+
+				if (leap) {
+					System.out.println("It is a leap year\n");
 				} else {
 					System.out.println("It is not a leap year\n");
 				}

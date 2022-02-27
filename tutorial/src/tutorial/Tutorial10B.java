@@ -42,6 +42,8 @@ public class Tutorial10B {
 				if (removeNum == numArray[j]) {
 					pos = j;
 					break;
+				}else {
+					continue;
 				}
 			}
 			// removing the element from the array

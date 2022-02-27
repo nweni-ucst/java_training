@@ -31,7 +31,9 @@ public class Tutorial9A {
 				int num = Integer.parseInt(scanner.next());
 				if (num > 0) {
 					System.out.println("Number is positive.\n");
-				} else {
+				} else if(num==0){
+					System.out.println("Zero is neither positive or negative.\n");
+				}else {
 					System.out.println("Number is negative.\n");
 				}
 			} catch (Exception e) {

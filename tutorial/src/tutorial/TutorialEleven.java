@@ -32,11 +32,12 @@ public class TutorialEleven {
 		arrList.add("White");
 		arrList.add("Black");
 		System.out.println("Printing elements in the ArrayList: ");
-		// printing using for loop
-		for (int index = 0; index < arrList.size(); index++) {
-			System.out.print(arrList.get(index));
-			if (index != arrList.size() - 1) {
-				System.out.print(", ");
+		// printing using for each loop
+		for (Object list : arrList) {
+			if(list.equals(arrList.get(arrList.size()-1))) {
+				System.out.print(list);
+			}else {
+			System.out.print(list + ", ");
 			}
 		}
 		// creating a new ArrayList
@@ -49,10 +50,11 @@ public class TutorialEleven {
 		newArrList.add("Pink");
 		System.out.println("\n\nNew ArrayList before Swap: ");
 		// printing using for loop
-		for (int index = 0; index < newArrList.size(); index++) {
-			System.out.print(newArrList.get(index));
-			if (index != newArrList.size() - 1) {
-				System.out.print(", ");
+		for (Object list : newArrList) {
+			if(list.equals(newArrList.get(arrList.size()-1))) {
+				System.out.print(list);
+			}else {
+			System.out.print(list + ", ");
 			}
 		}
 		// swapping elements using Collections.swap()method
@@ -60,7 +62,11 @@ public class TutorialEleven {
 		System.out.println("\n\nNew ArrayList after Swap: ");
 		// printing using for each loop
 		for (Object listObj : newArrList) {
+			if(listObj.equals(newArrList.get(arrList.size()-1))) {
+				System.out.print(listObj);
+			}else {
 			System.out.print(listObj + ", ");
+			}
 		}
 	}
 }

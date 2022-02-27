@@ -31,6 +31,7 @@ public class Tutorial10A {
 			n = Integer.parseInt(sc.next());
 			numArray = new int[n];
 			System.out.print("\nEnter the elements to add in the array:");
+			sum=0;
 			// to add the elements to the array and calculate sum
 			for (int i = 0; i < n; i++) {
 				numArray[i] = sc.nextInt();

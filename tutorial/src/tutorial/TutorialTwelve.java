@@ -28,14 +28,13 @@ public class TutorialTwelve {
 		hashmap.put(2, "CSS");
 		hashmap.put(3, "JavaScript");
 		hashmap.put(4, "JAVA");
-		// printing all mapping in the hashmap
 		System.out.println("Printing all mapping in the hashmap:");
 		String val;
-		for (int i = 1; i <= hashmap.size(); i++) {
-			val = (String) hashmap.get(i);
-			System.out.println("Hashmap of get(" + i + "): " + val);
-		}
-		//// for Tutorial 12(b)
+		// printing all mapping in the hashmap using forEach
+		hashmap.forEach((k, v) -> {
+            System.out.format("Hashmap of key:(%d),value: %s\n", k, v);
+        });
+		// for Tutorial 12(b)
 		System.out.println("\nPrinting all copying mapping in new hashmap:");
 		// creating a new HashMap
 		HashMap<Integer, String> newmap = new HashMap<Integer, String>();
