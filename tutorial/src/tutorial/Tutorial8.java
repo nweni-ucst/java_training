@@ -31,15 +31,15 @@ public class Tutorial8 {
 			System.out.println();
 		}
 		// to generate below character's pattern
-		ch = 'J'; 
-		int num=0;
+		ch = 'J';
+		int num = 0;
 		for (int j = 5; j > 1; j--) {
 			for (int q = 1; q <= j - 1; q++) {
 				System.out.print((char) (ch + q - j) + " ");
 				ch = (char) (ch + j + num);
 			}
-			num+=2;
-			ch ='J';
+			num += 2;
+			ch = 'J';
 			System.out.println();
 		}
 	}

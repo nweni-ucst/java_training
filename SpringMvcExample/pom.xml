@@ -55,7 +55,7 @@
         <groupId>org.springframework</groupId>
         <artifactId>spring-jdbc</artifactId>
         <version>${springframework.version}</version>
-    </dependency>   
+    </dependency>
     <!-- jstl for jsp page -->
     <dependency>
         <groupId>jstl</groupId>

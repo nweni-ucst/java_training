@@ -29,7 +29,6 @@ public class TutorialTwelve {
 		hashmap.put(3, "JavaScript");
 		hashmap.put(4, "JAVA");
 		System.out.println("Printing all mapping in the hashmap:");
-		String val;
 		// printing all mapping in the hashmap using forEach
 		hashmap.forEach((k, v) -> {
             System.out.format("Hashmap of key:(%d),value: %s\n", k, v);

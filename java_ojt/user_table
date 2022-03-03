@@ -1,0 +1,7 @@
+create table user{
+	id INT NOT NULL AUTO_INCREMENT,
+	name VARCHAR(50) NOT NULL,
+	address VARCHAR(250) NOT NULL,
+	register_date DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	PRIMARY KEY(id);
+};
