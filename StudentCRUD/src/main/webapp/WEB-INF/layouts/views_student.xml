@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+    "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+    "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+  <!-- Student Registration Page -->
+  <definition name="createStudent" extends="template">
+    <put-attribute name="title"
+      value="Student Registration" />
+    <put-attribute name="body"
+      value="/WEB-INF/pages/student/studentRegistration.jsp" />
+  </definition>
+
+  <!-- Student Registration Confirm Page -->
+  <definition name="createStudentConfirm" extends="template">
+    <put-attribute name="title"
+      value="Student Registration Confirm" />
+    <put-attribute name="body"
+      value="/WEB-INF/pages/student/studentRegisterConfirm.jsp" />
+  </definition>
+
+  <!-- Student List Page -->
+  <definition name="studentList" extends="template">
+    <put-attribute name="title" value="Student List" />
+    <put-attribute name="body"
+      value="/WEB-INF/pages/student/studentList.jsp" />
+  </definition>
+
+  <!-- Student Edition Page -->
+  <definition name="updateStudent" extends="template">
+    <put-attribute name="title" value="Student Edition" />
+    <put-attribute name="body"
+      value="/WEB-INF/pages/student/studentEdition.jsp" />
+  </definition>
+
+  <!-- Student Edition Confirm Page -->
+  <definition name="updateStudentConfirm" extends="template">
+    <put-attribute name="title"
+      value="Student Edited Confirm" />
+    <put-attribute name="body"
+      value="/WEB-INF/pages/student/studentEditionConfirm.jsp" />
+  </definition>
+
+</tiles-definitions>
